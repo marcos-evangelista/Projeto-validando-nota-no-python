@@ -3,12 +3,12 @@
 #Fará que o usuário, fique em um loop, até que digite a nota correta!!!
 nome= str(input('Digite seu nome:'))
 a = int (input('\n {nome} digite a nota do primeiro bimestre: '.format(nome=nome))) #Entrada da nota
-while a > 10: #Verificando se a nota é maior que 10
+while a > 10: #Verificando se a nota é maior que 10.
     a=int (input('A nota do primeiro bimestre está errada! {nome}Digite novamente:'.format(nome=nome)))#Caso a nota >10 informo o erro
 
 b = int (input ('\n {nome} digite a nota do segundo bimestre: '.format(nome=nome)))#Entrada da nota
 while b > 10: #Verificando se a nota é maior que 10
-     b=int (input('{nome} a nota do segundo bimestre está errada!Corrigir nota  Digite novamente:'.format(nome=nome)))#Se for informar erro
+     b=int (input('{nome} a nota do segundo bimestre está errada!  Digite novamente:'.format(nome=nome)))#Se for informar erro
 
 c = int(input('\n{nome} digite a nota do terceiro bimestre:  '.format(nome=nome))) #Entrada da nota
 while c > 10:  #Verificando se a nota é maior que 10
